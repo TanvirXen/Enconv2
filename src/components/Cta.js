@@ -16,8 +16,8 @@ export function Cta(props) {
                         </div>
                     </Col>
                     <Col lg={5} md={6}>
-                        <div className='cta-right'>
-                            <p>Join us for three days of inspiration, education, and collaboration. This year&apos;s conference brings together leading experts from around the globe to share their insights and expertise.</p>
+                        <div className='cta-right mt-5'>
+                            <p>Join us for three days of inspiration, education, and collaboration. This year's conference brings together leading experts from around the globe to share their insights and expertise.</p>
                             <div className='action-btns'>
                                 <Link href="/" className='btn theme-btn'>Register now</Link>
                                 <Link href="/" className='btn theme-btn-alt'>Call for paper</Link>

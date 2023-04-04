@@ -15,7 +15,7 @@ export function Navbar(props) {
                         <Link href="/" className='logo'>
                             <img src="/imgs/logo.png" alt='logo' />
                         </Link>
-                        <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={()=>setisMenuOpen(!isMenuOpen)}>
+                        <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={()=>setisMenuOpen(!isMenuOpen)} className='hamburger'>
                             <g clip-path="url(#clip0_1_5290)">
                             <path d="M6 9.5H30" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M6 18.5H30" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
