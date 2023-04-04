@@ -94,7 +94,7 @@ header {
 }
 
 .hero-area{
-  background: url(/imgs/hero-bg.png);
+  background: url(../../public/imgs/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -515,6 +515,11 @@ section{
   .tabs .tabs-btn {
     width: 100%;
     overflow-x: scroll;
+    height: 42px;
+    overflow-y: hidden;
+  }
+  .tabs .tabs-btn li{
+    height: 38px;
   }
   .header-middle{
     display: block;
