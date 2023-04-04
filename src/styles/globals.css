@@ -492,6 +492,7 @@ section{
   .tabs .tabs-btn {
     width: 100%;
     overflow-x: scroll;
+    overflow-x: hidden;
   }
   .hero-area {
     padding-bottom: 581px;
@@ -517,6 +518,7 @@ section{
     overflow-x: scroll;
     height: 42px;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .tabs .tabs-btn li{
     height: 38px;
